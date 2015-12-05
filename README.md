@@ -8,7 +8,7 @@ Intuitive NSDate extensions in Swift
 ```swift
 let now = NSDate()
 let nextWeek = now + 1.week
-let dayAfterTomorrow = now + 2.days
+let dayAfterTomorrow = now + 2.day
 
 // shortcuts #1
 let today = NSDate.today()
@@ -16,8 +16,8 @@ let tomorrow = NSDate.tomorrow()
 let yesterday = NSDate.yesterday()
 
 // shortcuts #2
-let dayBeforeYesterday = 2.days.ago
-let tokyoOlympicYear = 5.years.later
+let dayBeforeYesterday = 2.day.ago
+let tokyoOlympicYear = 5.year.later
 ```
 
 ### Initialize by specifying date components
